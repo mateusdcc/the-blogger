@@ -1,63 +1,48 @@
 ---
 title: "Everything Is an Exchange"
-subtitle: "A beginning, which is only another kind of debt."
+subtitle: "A note on relativity, behavior, and perception."
 date: "2026-05-23"
-category: "sunk cost ontology"
+category: "behavioral psychology"
 tags:
   - behavioral psychology
   - philosophy
   - exchange
 featured: true
-excerpt: "The thesis is not that people are cynical. It is worse, and more ordinary: even sincerity has an economy."
+excerpt: "I am trying to build a framework where behavior is read through the world a person actually perceives."
 ---
 
-The first proposition is simple enough to be mistaken for a slogan, which is
-already a bad sign:
+I keep returning to the same problem: behavior only makes sense inside the world
+that produces it. A person does not react to reality in the abstract. They react
+to what reality is for them.
 
 <aside class="callout">
-  <p>Everything is an exchange, including the wish to believe that something is not.</p>
+  <p>The question is not only what happened. The question is whether it mattered for them.</p>
 </aside>
 
-I do not mean this in the cheap sense that every act hides a selfish motive.
-That is too easy, and too pleased with itself. The exchange is usually more
-subtle. A person gives attention and receives identity. A person gives obedience
-and receives relief. A person gives honesty and receives the dangerous luxury of
-being briefly unedited.
+This is why the thought that everything is relative matters so much when
+building a psychological framework. Not because nothing is real, and not because
+every interpretation is equally useful. The point is more practical than that:
+the catalyst of a behavior is often located in the person's perceived world.
 
-The exchange is not always conscious. Most of the time it is not. It is sediment:
-the accumulated residue of rewards, punishments, glances, silences, small
-humiliations, and the private arithmetic by which a life learns what it costs to
-remain attached to other people.
+## A working assumption
 
-## Axiom one
+If I want to study someone, I need to ask what their world makes available to
+them. What feels threatening? What feels rewarding? What counts as humiliation?
+What has to be protected? What becomes expensive to admit?
 
-Attention is not a light. It is a currency that pretends to be a light.
+From there, the idea of exchange starts to appear almost everywhere. Attention
+can be exchanged for identity. Certainty can be exchanged for stability.
+Distance can be exchanged for control. Even a personality trait can sometimes be
+read as an economy that has become habitual.
 
-This explains why being seen can feel nourishing and violent at the same time.
-Recognition gives the self a contour, but the contour is drawn by someone else.
-To need attention is not a moral failure. It is evidence that the self is not a
-sealed room. The problem begins when the market becomes the only mirror.
+## A provisional result
 
-## Axiom two
+What looks like personality is often only a private economy with better manners.
 
-Every identity carries a maintenance cost.
+I am calling that a conclusion, but only provisionally. The point is not to
+arrive at a final answer. The point is to preserve the shape of a question long
+enough to make it useful.
 
-The narcissist pays by never being able to rest inside admiration. The skeptic
-pays by converting all tenderness into evidence. The ambitious person pays by
-mistaking motion for proof of being alive. The person who claims to want nothing
-usually pays in delayed invoices.
-
-None of this is tragic in a theatrical way. It is quieter than that. It is the
-ordinary structure of wanting anything at all.
-
-## A working method
-
-This blog will keep notes on the exchanges that hide inside behavior:
-
-- what people purchase with certainty
-- what attention does to a self that has become dependent on it
-- what philosophy can clarify without pretending to cure
-- what desire asks for when it says it wants freedom
-
-The entries will not be final. Finality is a style choice made by arguments that
-have not yet met enough evidence.
+The irony is obvious enough: I am trying to build a framework for understanding
+other people through my own perceptual world, and the framework keeps looking
+like a self-portrait.

@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     template: "%s | Mateus Cavalcanti",
   },
   description:
-    "A static notebook for behavioral psychology, philosophy, attention, narcissism, and the transactions underneath ordinary life.",
+    "My notes on philosophy, behavioral psychology, perception, attention, and exchange.",
   metadataBase: new URL("https://mateusdcc.github.io"),
 };
 

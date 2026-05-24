@@ -44,7 +44,7 @@ export function SearchArchive({ posts, compact = false }: SearchArchiveProps) {
         type="search"
         value={query}
         onChange={(event) => setQuery(event.target.value)}
-        placeholder="search for something you won't find..."
+        placeholder="search posts"
       />
 
       <div className="archive-results" aria-live="polite">
@@ -63,7 +63,7 @@ export function SearchArchive({ posts, compact = false }: SearchArchiveProps) {
             </article>
           ))
         ) : (
-          <p className="empty-state">No matching thought. The silence is indexed.</p>
+          <p className="empty-state">No matching posts.</p>
         )}
       </div>
     </div>

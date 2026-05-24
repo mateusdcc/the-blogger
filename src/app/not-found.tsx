@@ -5,9 +5,9 @@ export default function NotFound() {
     <main className="not-found">
       <div className="container">
         <p className="section-label">404</p>
-        <h1>this page, like most things, does not exist</h1>
+        <h1>page not found</h1>
         <Link className="button button--ghost" href="/">
-          return to wherever this began
+          home
         </Link>
       </div>
     </main>

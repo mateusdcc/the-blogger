@@ -20,16 +20,14 @@ export default function Home() {
             <span>is an exchange</span>
           </h1>
           <p className="hero__copy">
-            Mateus Cavalcanti keeps a record of the small markets inside the
-            self: attention, narcissism, bad faith, desire, debt, the need to be
-            seen, and the price paid for being seen too clearly.
+            Just developing a private language for my own interiority.
           </p>
           <div className="hero__actions" aria-label="Primary navigation">
             <Link className="button button--primary" href="/archive">
-              the accumulated record
+              archive
             </Link>
             <Link className="button button--void" href="/about">
-              or don&apos;t
+              about
             </Link>
           </div>
         </div>
@@ -37,7 +35,7 @@ export default function Home() {
 
       <section className="section">
         <div className="container">
-          <p className="section-label">latest evidence, if that word still holds</p>
+          <p className="section-label">latest note</p>
           {featured ? (
             <article className="featured-post">
               <div>
@@ -48,18 +46,18 @@ export default function Home() {
               </div>
               <p>{featured.excerpt}</p>
               <Link className="button button--ghost" href={`/posts/${featured.slug}`}>
-                continue if you must
+                read post
               </Link>
             </article>
           ) : (
-            <p className="empty-state">Nothing has been written. This is not unusual.</p>
+            <p className="empty-state">No posts yet.</p>
           )}
         </div>
       </section>
 
       <section className="section section--ruled">
         <div className="container">
-          <p className="section-label">recent fragments pretending to cohere</p>
+          <p className="section-label">recent notes</p>
           <div className="post-list">
             {remaining.map((post) => (
               <article className="post-card" key={post.slug}>
@@ -80,7 +78,7 @@ export default function Home() {
 
       <section className="section section--ruled">
         <div className="container">
-          <p className="section-label">search, as a private superstition</p>
+          <p className="section-label">search</p>
           <SearchArchive posts={posts} compact />
         </div>
       </section>

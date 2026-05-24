@@ -4,9 +4,9 @@ import { SearchArchive } from "@/components/search-archive";
 import { getAllPosts } from "@/lib/posts";
 
 export const metadata: Metadata = {
-  title: "The Accumulated Record",
+  title: "Archive",
   description:
-    "All posts by Mateus Cavalcanti on behavioral psychology, philosophy, attention, and recursive doubt.",
+    "My posts on philosophy, behavioral psychology, perception, attention, and exchange.",
 };
 
 export default function ArchivePage() {
@@ -23,11 +23,10 @@ export default function ArchivePage() {
           </div>
         </nav>
         <div className="container">
-          <p className="section-label">all posts, reluctantly arranged</p>
-          <h1>the accumulated record</h1>
+          <p className="section-label">all posts</p>
+          <h1>archive</h1>
           <p>
-            A ledger of essays, notes, results, unfinished arguments, and the
-            occasional proposition that survived long enough to be given a date.
+            Essays, notes, results, and unfinished arguments, arranged by date.
           </p>
         </div>
       </section>
