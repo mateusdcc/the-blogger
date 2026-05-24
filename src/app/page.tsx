@@ -55,26 +55,28 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section section--ruled">
-        <div className="container">
-          <p className="section-label">recent notes</p>
-          <div className="post-list">
-            {remaining.map((post) => (
-              <article className="post-card" key={post.slug}>
-                <p className="meta">{formatPostDate(post.date)}</p>
-                <h3>
-                  <Link href={`/posts/${post.slug}`}>{post.title}</Link>
-                </h3>
-                <p>{post.excerpt}</p>
-                <div className="post-card__footer">
-                  <span>{post.category}</span>
-                  <span>{post.readingTime}</span>
-                </div>
-              </article>
-            ))}
+      {remaining.length > 0 ? (
+        <section className="section section--ruled">
+          <div className="container">
+            <p className="section-label">recent notes</p>
+            <div className="post-list">
+              {remaining.map((post) => (
+                <article className="post-card" key={post.slug}>
+                  <p className="meta">{formatPostDate(post.date)}</p>
+                  <h3>
+                    <Link href={`/posts/${post.slug}`}>{post.title}</Link>
+                  </h3>
+                  <p>{post.excerpt}</p>
+                  <div className="post-card__footer">
+                    <span>{post.category}</span>
+                    <span>{post.readingTime}</span>
+                  </div>
+                </article>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      ) : null}
 
       <section className="section section--ruled">
         <div className="container">

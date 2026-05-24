@@ -78,24 +78,26 @@ export default async function PostPage({ params }: PostPageProps) {
           />
         </div>
 
-        <footer className="container post-footer">
-          {adjacent.previous ? (
-            <Link href={`/posts/${adjacent.previous.slug}`}>
-              <span>previous</span>
-              {adjacent.previous.title}
-            </Link>
-          ) : (
-            <span />
-          )}
-          {adjacent.next ? (
-            <Link href={`/posts/${adjacent.next.slug}`}>
-              <span>next</span>
-              {adjacent.next.title}
-            </Link>
-          ) : (
-            <span />
-          )}
-        </footer>
+        {adjacent.previous || adjacent.next ? (
+          <footer className="container post-footer">
+            {adjacent.previous ? (
+              <Link href={`/posts/${adjacent.previous.slug}`}>
+                <span>previous</span>
+                {adjacent.previous.title}
+              </Link>
+            ) : (
+              <span />
+            )}
+            {adjacent.next ? (
+              <Link href={`/posts/${adjacent.next.slug}`}>
+                <span>next</span>
+                {adjacent.next.title}
+              </Link>
+            ) : (
+              <span />
+            )}
+          </footer>
+        ) : null}
       </article>
     </main>
   );

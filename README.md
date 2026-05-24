@@ -24,6 +24,63 @@ Your post starts here.
 
 Use `YYYY-MM-DD-title.md` filenames. The date is displayed as `YYYY — MM — DD` on the site.
 
+## Custom Markdown Components
+
+The renderer supports a few custom Markdown directives for essay components.
+
+Numbered section heading:
+
+```md
+:::section{number="01"}
+Love as *broadcast*
+:::
+```
+
+Conversation block:
+
+```md
+:::chat{label="Discord - 18:04"}
+Stella | S | I want both. i want to be loved.
+Nick | N | thats not how love works.
+:::
+```
+
+Autopsy note:
+
+```md
+:::note{label="Autopsy note"}
+This is a note styled as a left-ruled analysis block.
+:::
+```
+
+Pull quote:
+
+```md
+:::pullquote{cite="Stella, later in the exchange"}
+"He found something hurt..."
+:::
+```
+
+Thesis block:
+
+```md
+:::thesis{label="The overarching pattern"}
+Perception replaces reality at every level of experience.
+:::
+```
+
+Inline fallacy tag:
+
+```md
+The first move was :fallacy[Relativist Fallacy].
+```
+
+Section divider:
+
+```md
+::divider
+```
+
 ## Run Locally
 
 ```bash
